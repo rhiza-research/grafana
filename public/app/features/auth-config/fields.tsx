@@ -594,7 +594,7 @@ export function fieldMap(provider: string): Record<string, FieldData> {
     teamIdsAttributePath: {
       label: 'Team Ids attribute path',
       description:
-        'The JMESPath expression to use for Grafana Team Id lookup within the results returned by the teams_url endpoint.',
+        'The JMESPath expression to use for Team Id lookup within the results returned by the teams_url endpoint.',
       type: 'text',
       validation: {
         validate: (value, formValues) => {

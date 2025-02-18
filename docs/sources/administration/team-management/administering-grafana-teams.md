@@ -1,5 +1,5 @@
 ---
-description: Learn how to administer Grafana Teams.
+description: Learn how to administer Teams.
 labels:
   products:
     - enterprise
@@ -9,14 +9,14 @@ keywords:
   - authorization
   - microservices
   - architecture
-menuTitle: Administer Grafana Teams
-title: Administer Grafana Teams
+menuTitle: Administer Teams
+title: Administer Teams
 weight: 300
 ---
 
-# Administer Grafana Teams
+# Administer Teams
 
-This topic describes how to administer Grafana Teams.
+This topic describes how to administer Teams.
 
 ## View a list of Teams
 
@@ -47,6 +47,6 @@ Grafana recommends you use Teams to organize and manage access to Grafana’s co
 
 Grafana recommends that you use Instances or Stacks to separate Teams if you want true isolation, to ensure that no information leaks between Teams. You can synchronize some resources between instances using provisioning.
 
-## Secure Grafana Teams
+## Secure Teams
 
 The most important thing to consider for securing Teams is to only grant team administrator rights to the users you trust to administer the Team.

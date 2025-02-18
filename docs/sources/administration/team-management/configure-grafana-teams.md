@@ -1,5 +1,5 @@
 ---
-description: Learn how to configure Grafana Teams
+description: Learn how to configure Teams
 labels:
   products:
     - enterprise
@@ -9,20 +9,20 @@ keywords:
   - authorization
   - microservices
   - architecture
-menuTitle: Configure Grafana Teams
-title: Configure Grafana Teams
+menuTitle: Configure Teams
+title: Configure Teams
 weight: 200
 ---
 
-# Configure Grafana Teams
+# Configure Teams
 
-This topic describes how to set up and configure Grafana Teams.
+This topic describes how to set up and configure Teams.
 
 For a tutorial on working with Teams, refer to [Create users and teams](https://grafana.com/tutorials/create-users-and-teams/).
 
 ## Before you begin
 
-Before you begin creating and working with Grafana Teams:
+Before you begin creating and working with Teams:
 
 - Ensure that you have either the `Organization Administrator` role or team administrator permissions.
   Refer to [Organization roles](https://grafana.com/docs/grafana/<GRAFANA_VERSION>/administration/roles-and-permissions/#organization-roles) and [RBAC permissions, actions, and scopes](https://grafana.com/docs/grafana/<GRAFANA_VERSION>/administration/roles-and-permissions/access-control/custom-role-actions-scopes/#rbac-permissions-actions-and-scopes) for a list of Grafana roles and role-based access control actions.
@@ -42,10 +42,10 @@ In Grafana Enterprise and OSS, Teams belong to Grafana Organizations.
 Refer to [About organizations](/docs/grafana/<GRAFANA_VERSION>/administration/organization-management/#about-organizations) for more information.
 {{< /admonition >}}
 
-## Create a Grafana Team
+## Create a Team
 
 A team is a group of users within a Grafana instance that have common permissions needs. Teams to help make user-permission management more efficient. A user can belong to multiple Teams.
-Grafana Teams includes common access to the following:
+Teams includes common access to the following:
 
 - dashboards
 - data sources
@@ -89,7 +89,7 @@ To grant team member permissions:
 1. In the team member list, locate the user that you want to change. You can use the search field to filter the list if necessary.
 1. Under the **Permission** column, select the new permission level.
 
-## Add roles to a Grafana Team
+## Add roles to a Team
 
 You can add or delete roles from a specified team.
 
@@ -116,7 +116,7 @@ Delete a team when you no longer need it. This action permanently deletes the te
 
 <!-- ## Create isolated or collaborative teams
 
-Grafana Teams can either be `isolated` or `collaborative`. Isolated teams can only see their own resources. They can't see other team’s dashboards, data, or alerts. Collaborative teams have access to other team’s resources. Grafana Cloud users must contact Support.
+Teams can either be `isolated` or `collaborative`. Isolated teams can only see their own resources. They can't see other team’s dashboards, data, or alerts. Collaborative teams have access to other team’s resources. Grafana Cloud users must contact Support.
 
 To create an isolated team add the following to the Grafana configuration file:
 

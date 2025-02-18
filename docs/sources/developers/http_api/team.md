@@ -2,7 +2,7 @@
 aliases:
   - ../../http_api/team/
 canonical: /docs/grafana/latest/developers/http_api/team/
-description: Grafana Team HTTP API
+description: Team HTTP API
 keywords:
   - grafana
   - http

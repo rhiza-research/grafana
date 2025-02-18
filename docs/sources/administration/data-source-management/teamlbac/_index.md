@@ -41,7 +41,7 @@ This feature addresses two common challenges faced by Grafana users:
 1. Having a high number of Grafana Cloud data sources.
    LBAC for data sources lets Grafana administrators reduce the total number of data sources per instance from hundreds, to one.
 1. Using the same dashboard across multiple teams.
-   LBAC for data sources lets Grafana Teams use the same dashboard with different access control rules.
+   LBAC for data sources lets Teams use the same dashboard with different access control rules.
 
 To set up LBAC for data sources for a Loki data source, refer to [Configure LBAC for Loki Data Source](https://grafana.com/docs/grafana/<GRAFANA_VERSION>/administration/data-source-management/teamlbac/configure-teamlbac-for-loki/).
 To set up LBAC for data sources for a Loki data source, refer to [Configure LBAC for Prometheus Data Source](https://grafana.com/docs/grafana/<GRAFANA_VERSION>/administration/data-source-management/teamlbac/configure-teamlbac-for-prometheus/).
