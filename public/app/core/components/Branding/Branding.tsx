@@ -59,8 +59,8 @@ export class Branding {
   static LoginBackground = LoginBackground;
   static MenuLogo = MenuLogo;
   static LoginBoxBackground = LoginBoxBackground;
-  static AppTitle = 'SheerWater';
-  static LoginTitle = 'Welcome to SheerWater';
+  static AppTitle = 'Rhiza Research';
+  static LoginTitle = 'Welcome to Rhiza';
   static HideEdition = false;
   static GetLoginSubTitle = (): null | string => {
     return null;

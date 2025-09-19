@@ -6,7 +6,7 @@
   <mj-head>
     <!-- ⬇ Don't forget to specify an email subject below! ⬇ -->
     <mj-title>
-      {{ Subject .Subject .TemplateData "Welcome to SheerWater" }}
+      {{ Subject .Subject .TemplateData "Welcome to Rhiza" }}
     </mj-title>
     <mj-include path="./partials/layout/head.mjml" />
   </mj-head>
@@ -23,7 +23,7 @@
           Welcome! Ready to start building some beautiful metric and analytic dashboards?
         </mj-text>
         <mj-text>
-          If you are new to SheerWater, refer to the <a href="https://grafana.com/docs/grafana/latest/getting-started/getting-started/">Getting started with SheerWater</a>
+          If you are new to Rhiza, refer to the <a href="https://grafana.com/docs/grafana/latest/getting-started/getting-started/">Getting started with Rhiza</a>
           guide.
         </mj-text>
         <mj-button href="https://grafana.com/docs/grafana/latest/getting-started/getting-started/">

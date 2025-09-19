@@ -63,4 +63,4 @@ Annotations: {{ template "__default_sorted_pairs" $annotations }}
 {{- end }}
 
 
-Sent by SheerWater v{{.BuildVersion}} (c) {{now | date "2006"}} Rhiza Research
+Sent by Rhiza v{{.BuildVersion}} (c) {{now | date "2006"}} Rhiza Research

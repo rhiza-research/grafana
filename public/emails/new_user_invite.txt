@@ -1,4 +1,4 @@
-{{HiddenSubject .Subject "{{.InvitedBy}} has invited you to join SheerWater"}}
+{{HiddenSubject .Subject "{{.InvitedBy}} has invited you to join Rhiza"}}
 
 You're invited to join {{.OrgName}}
 
@@ -6,4 +6,4 @@ You've been invited to join the {{.OrgName}} organization by {{.InvitedBy}}. To 
 
 {{.LinkUrl}}
 
-Sent by SheerWater v{{.BuildVersion}} (c) {{now | date "2006"}} Rhiza Research
+Sent by Rhiza v{{.BuildVersion}} (c) {{now | date "2006"}} Rhiza Research

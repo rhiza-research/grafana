@@ -1,5 +1,5 @@
 <mj-column background-color="transparent">
   <mj-text align="center">
-    &copy; {{ now | date "2006" }} Rhiza Research. Sent by <a href="{{ .AppUrl }}">SheerWater v{{ .BuildVersion }}</a>.
+    &copy; {{ now | date "2006" }} Rhiza Research. Sent by <a href="{{ .AppUrl }}">Rhiza v{{ .BuildVersion }}</a>.
   </mj-text>
 </mj-column>

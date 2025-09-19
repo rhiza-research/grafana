@@ -26,4 +26,4 @@ Go to the Alerts page:
 {{.AlertPageUrl}}
 
 
-Sent by SheerWater v{{.BuildVersion}} (c) {{now | date "2006"}} Rhiza Research
+Sent by Rhiza v{{.BuildVersion}} (c) {{now | date "2006"}} Rhiza Research
